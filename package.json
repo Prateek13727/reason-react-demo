@@ -1,0 +1,42 @@
+{
+  "name": "rescript-project-template",
+  "version": "0.0.1",
+  "keywords": [
+    "rescript"
+  ],
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w",
+    "dev": "webpack-dev-server  --config webpack.development.js --hot"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "chunks-2-json-webpack-plugin": "^1.0.4",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "compression-webpack-plugin": "^8.0.1",
+    "css-loader": "^3.5.3",
+    "dotenv-webpack": "^7.0.3",
+    "html-webpack-plugin": "^5.3.2",
+    "node-sass": "^4.9.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rescript": "*",
+    "sass-loader": "^8.0.2",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
