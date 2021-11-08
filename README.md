@@ -1,21 +1,16 @@
-# ReScript Project Template
+# ReScript/React Project Template
 
 The only official ReScript starter template.
 
 ## Installation
 
 ```sh
-npm install
+yarn install
 ```
 
 ## Build
 
-- Build: `npm run build`
-- Clean: `npm run clean`
-- Build & watch: `npm run start`
-
-## Run
-
-```sh
-node src/Demo.bs.js
-```
+- Install depdencies: `yarn install`
+- Clean Rescript: `yarn clean`
+- Build Rescript: `yarn start`
+- Build and run with Webpack: `yarn dev`
